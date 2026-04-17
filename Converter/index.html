@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Unit Conversion</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <div class="card">
+    <div class="card-header">
+      Unit Conversion
+    </div>
+
+    <div class="card-body">
+      <input type="number" class="input-box1" id="input-box" />
+
+      <button class="btn1" id="convert-btn">Convert</button>
+
+      <!-- Clear + History buttons -->
+      <div class="btn-row">
+        <button class="btn2" id="clear-btn">Clear</button>
+        <button class="btn3" id="history-btn">History</button>
+      </div>
+
+      <div class="result-box">
+        <h3>Length (Meter/Feet)</h3>
+        <p id="tometer"></p>
+        <p id="tofeet"></p>
+      </div>
+
+      <div class="result-box">
+        <h3>Volume (Liters/Gallons)</h3>
+        <p id="togallons"></p>
+        <p id="liters"></p>
+      </div>
+
+      <div class="result-box">
+        <h3>Mass (Kilograms/Pounds)</h3>
+        <p id="topounds"></p>
+        <p id="tokilos"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

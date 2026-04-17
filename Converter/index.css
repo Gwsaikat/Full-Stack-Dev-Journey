@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #f3f5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Card */
+.card {
+  width: 360px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+}
+
+/* Header */
+.card-header {
+  background: #4f8fe8;
+  color: #ffffff;
+  text-align: center;
+  padding: 22px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Body */
+.card-body {
+  padding: 22px;
+}
+
+/* Input */
+.input-box1 {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background: #f2f4f8;
+  text-align: center;
+  margin-bottom: 18px;
+  outline: none;
+}
+
+/* Buttons */
+.btn1 {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: #5c6270;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 14px;
+  transition: background 0.3s ease;
+}
+
+.btn1:hover {
+  background: #444957;
+}
+
+/* Side-by-side buttons */
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.btn2 {
+  flex: 1;
+  margin-bottom: 0;
+  background-color: rgb(187, 63, 63);
+  width: 50%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: solid;
+  cursor: pointer;
+  margin-bottom: 14px;
+  transition: background 0.3s ease;
+}
+.btn3 {
+  flex: 1;
+  margin-bottom: 0;
+  background-color: rgb(65, 63, 63);
+  width: 50%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: solid;
+  cursor: pointer;
+  margin-bottom: 14px;
+  transition: background 0.3s ease;
+}
+/* Result Boxes */
+.result-box {
+  background: #e9edf2;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+
+.result-box h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.result-box p {
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0;
+}

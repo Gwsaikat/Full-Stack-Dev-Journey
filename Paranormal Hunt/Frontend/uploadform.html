@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Paranormal.css">
+    <title>Upload Story - Paranormal Hunt</title>
+</head>
+
+<body class="Uploadpage">
+    <header>
+        <nav>
+            <div class="logo">Paranormal <span>Hunt</span></div>
+            <ul class="nav-list">
+                <li><a href="Paranormal.html">Home</a></li>
+                <li><a href="Read.html">Read</a></li>
+                <li><a href="uploadform.html">Upload</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="upload-container">
+        <h1>Share Your Story</h1>
+        <p class="lead">Tell us about your paranormal experience.</p>
+
+        <form class="upload-form" action="#" method="post" enctype="multipart/form-data" novalidate>
+            <label for="title">Title</label>
+            <input id="title" name="title" type="text" placeholder="Enter story title" required>
+
+            <label for="author">Your name</label>
+            <input id="author" name="author" type="text" placeholder="Author name" required>
+
+            <label for="category">Category</label>
+            <select id="category" name="category">
+                <option>General</option>
+                <option>Haunted House</option>
+                <option>Apparition</option>
+                <option>Unknown</option>
+            </select>
+
+            <label for="story">Story</label>
+            <textarea id="story" name="story" rows="8" placeholder="Write your experience..." required></textarea>
+
+            <div class="form-actions">
+                <button type="submit" class="btn">Submit Story</button>
+                <a href="Read.html" class="btn btn-ghost">Cancel</a>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

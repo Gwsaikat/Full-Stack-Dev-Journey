@@ -1,0 +1,58 @@
+
+body{
+    color: rgb(18, 157, 13);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-row {
+  display: flex;
+  gap: 6px;
+}
+
+.btn-row button {
+  flex: 0.5;
+  margin-top: 5px;
+}
+
+button{
+    padding: 1px;
+    color:rgb(255, 255, 255); 
+    text-decoration: solid;
+    background-color:rgb(18, 157, 13);
+    border: 1px solid rgb(18, 157, 13);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input{
+    color: rgb(18, 157, 13);
+    border-radius: 5px;
+}
+
+p{
+    margin-top:  0%;
+}
+
+h2{
+    margin-bottom: 1%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+}
+
+li{
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+#delete{
+    background-color: white;
+    color: rgb(18, 157, 13) ;
+}

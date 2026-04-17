@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
+  font-family: Arial, sans-serif;
+}
+
+.stock-box {
+  width: 350px;
+  padding: 20px;
+
+  background: #eeeeee;
+  border: 2px solid #999;
+  border-radius: 10px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.stock-box h2 {
+  margin: 0 0 15px 0;
+  color: #222;
+}
+
+.stock-box p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #333;
+}

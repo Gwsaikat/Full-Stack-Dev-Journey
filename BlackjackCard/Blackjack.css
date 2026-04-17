@@ -1,0 +1,14 @@
+
+body{
+    background: linear-gradient(to right, #08791d, #78990b);
+    text-align: center;
+    font-size: large;
+    margin-top: 200px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #058145;
+}
+

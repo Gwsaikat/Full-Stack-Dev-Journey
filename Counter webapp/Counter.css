@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Pics/faded_gallery-JEludq8wsD8-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #000000;
+}
+h2 {
+    color: #06046299;
+}
+p {
+    font-size: 20px;
+    color: #f91af2f4;
+}

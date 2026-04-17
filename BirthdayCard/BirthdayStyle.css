@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(to right, #110892, #c50505);
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+    text-shadow: 2px 2px 5px #000000;
+    color: #a6a0a0;
+    border: #000000 5px solid;
+    border-radius: 15px;
+}
+
+.date {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gifts-container {
+    margin-top: 100px;
+}
+
+.birthday-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #ff69b4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gift-image {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    border: 3px solid #ff69b4;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-image: url('Pics/kari-shea-f1te839bYRQ-unsplash (1).jpg');
+    background-size: cover;
+}
+
+#gift1:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2M0b3Y5Mno2NzN4bTJtbGJxempidTJ5dTltbGY1bGNramE5Z2czdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6fJ1BM7R2EBRDnxK/giphy.gif');
+    background-size: contain;
+}
+
+#gift2:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHJkYzBqOW50eHk2ajM5Z3gzcDYwanB2eGdod3V1ZnIxOHN1anFpdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bIEzoZX0qJaG6s6frc/giphy.gif');
+    background-size: contain;
+}
+
+#gift3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXI2aG51OTVta2QwMzQ2NDZmdnBobm5lN3RmcTNlYmIxd2Q5eHZyZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ui1hpJSyBDWlG/giphy.gif');
+    background-size: contain;
+}

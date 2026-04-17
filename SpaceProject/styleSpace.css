@@ -1,0 +1,55 @@
+
+body{
+    background-image: url('Pics/giphy.webp.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+h1{
+    color: rgb(28, 80, 192);
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #3e3d3d;
+    font-size: clamp(30px, 5vw, 50px);
+}
+button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(53, 52, 52, 0.3);
+    font-family: inherit;
+    color:rgb(28, 80, 192);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+p{
+    color: rgb(28, 80, 192);
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px #282727;
+    font-size: 20px;
+    font-weight: bold;
+}
+#logo{
+    width: 300px;
+    margin-top: 10px;
+}
+.Underline{
+    border-bottom: #282727 3px solid;
+    
+} 
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin-top: 10px;
+}
